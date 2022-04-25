@@ -22,16 +22,27 @@
     padding:200px;
 }
 
+.cardsection {
+  padding-top:80px;
+  padding-bottom:80px;
+  height:700px;
+}
 /*top image */
 .bg-img {
-    background-image:url("images/homebanner.png");
+    background-image:url("images/bg3.png");
     background-position: center;
     background-size: cover;
-    height:700px;
-    min-height: 380px;
+    height: 600px;
+    min-height:600px;
 }
- 
 
+.topheader {
+  color:white;
+  font-size: 75px;
+  font-family:'Playfair Display' ;
+  display: flex;
+  justify-content: center;
+}
 
 /* GENERAL STYLES */ 
 body {
@@ -84,7 +95,7 @@ padding:  0rem2rem;
 left:0;
 right:0;
 
-	background-color: aliceblue;
+	background-color: #cdcfe0 ;
 	margin:0;
     padding: 7rem 0;
     font-family: "Poppins", sans-serif; }
@@ -127,7 +138,8 @@ right:0;
       color: #999999; }
   
       .card-title   {
-          font-size:80px;
+          font-size:55px;
+          font-family: 'Playfair';
       }
 
       .featurette-image {
@@ -142,14 +154,16 @@ right:0;
 
       }
       .btn {
-        background-color: bisque;
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        font-weight: bold;
+        font-size:15px;
+        color:black;
       }
       .btn:hover {
-        background-color: pink;
+        background-color: #579dcc;
       }
       .cards {
         background-color: aliceblue;
@@ -191,4 +205,15 @@ right:0;
 	.bg-img {
 		height:500px;
 	}
+}
+
+.info {
+  padding-left:250px;
+  padding-right: 250px;
+  font-size:20px;
+  
+  
+}
+.topblurb {
+  padding-top:90px;
 }
